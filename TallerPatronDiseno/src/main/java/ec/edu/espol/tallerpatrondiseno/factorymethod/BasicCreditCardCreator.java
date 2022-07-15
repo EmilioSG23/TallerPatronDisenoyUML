@@ -2,12 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package Notificaciones.Operaciones;
+package ec.edu.espol.tallerpatrondiseno.factorymethod;
 
-/**
- *
- * @author EmilioSG23
- */
-public interface Notificador {
-    public void enviarMensaje(String mensaje);
+
+public interface BasicCreditCardCreator {
+    public CreditCard createCreditCard();
+    
 }

@@ -2,9 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Notificaciones.Operaciones;
+package ec.edu.espol.tallerpatrondiseno.operaciones;
 
-import Notificaciones.Operaciones.Notificador;
+import ec.edu.espol.tallerpatrondiseno.operaciones.Notificador;
 
 /**
  *

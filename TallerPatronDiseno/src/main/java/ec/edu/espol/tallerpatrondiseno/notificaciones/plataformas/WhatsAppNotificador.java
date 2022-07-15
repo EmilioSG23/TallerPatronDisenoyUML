@@ -2,16 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Notificaciones.Plataformas;
+package ec.edu.espol.tallerpatrondiseno.notificaciones.plataformas;
 
-import Notificaciones.Operaciones.*;
+import ec.edu.espol.tallerpatrondiseno.operaciones.NotiDecorator;
+import ec.edu.espol.tallerpatrondiseno.operaciones.Notificador;
 
 /**
  *
  * @author EmilioSG23
  */
-public class MailNotificador extends NotiDecorator{
-    public MailNotificador(Notificador notificador){
+public class WhatsAppNotificador extends NotiDecorator{
+    public WhatsAppNotificador(Notificador notificador){
         super(notificador);
     }
     
